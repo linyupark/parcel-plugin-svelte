@@ -22,8 +22,7 @@ class SvelteAsset extends Asset {
     let svelteOptions = {
       compilerOptions: {
         generate: 'dom',
-        format: 'cjs',
-        store: true,
+        format: 'es',
         filename: this.relativeName
       },
       preprocess: undefined
